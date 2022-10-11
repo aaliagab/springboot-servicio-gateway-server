@@ -40,7 +40,7 @@ public class EjemploGlobalFilter implements GlobalFilter, Ordered{
 			exchange.getResponse().getCookies().
 			add("color", ResponseCookie.from("color", "rojo").build());
 			
-			exchange.getResponse().getHeaders().setContentType(MediaType.TEXT_PLAIN);
+			//exchange.getResponse().getHeaders().setContentType(MediaType.TEXT_PLAIN);
 		}));
 	}
 
